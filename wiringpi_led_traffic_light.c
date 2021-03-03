@@ -2,11 +2,11 @@
 
 int main()
 {
-    int pin16 = 16, pin20 = 20, pin21 = 21;
+	int pin16 = 16, pin20 = 20, pin21 = 21;
 
 	wiringPiSetupGpio();
-	
-	while(1)
+
+	while (1)
 	{
 		pinMode(pin16, OUTPUT);
 		digitalWrite(pin16, HIGH);
@@ -17,13 +17,12 @@ int main()
 		digitalWrite(pin20, HIGH);
 		delay(1000);
 		digitalWrite(pin20, LOW);
-		
+
 		pinMode(pin21, OUTPUT);
 		digitalWrite(pin21, HIGH);
 		delay(1000);
 		digitalWrite(pin21, LOW);
 	}
 
-    return 0;
+	return 0;
 }
-

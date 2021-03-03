@@ -14,7 +14,7 @@ int main()
     delay(1000);
     softPwmWrite(18, 100);
     delay(1000);
-    softPwmWrite(18, 0); 
+    softPwmWrite(18, 0);
     delay(1000);
     return 0;
 }

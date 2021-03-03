@@ -7,9 +7,9 @@
 
 int main()
 {
-    int pin = 18; 
+    int pin = 18;
 
-	wiringPiSetupGpio();
+    wiringPiSetupGpio();
     pinMode(pin, OUTPUT);
     digitalWrite(pin, HIGH);
     delay(1000);
@@ -17,4 +17,3 @@ int main()
 
     return 0;
 }
-

@@ -9,7 +9,7 @@ int main()
     softPwmCreate(pin18, 0, 100);
     softPwmCreate(pin23, 0, 100);
 
-    while(1)
+    while (1)
     {
         softPwmWrite(pin18, 0);
         softPwmWrite(pin23, 100);
@@ -24,7 +24,7 @@ int main()
         softPwmWrite(pin23, 25);
         delay(500);
         softPwmWrite(pin18, 100);
-        softPwmWrite(pin23, 0); 
+        softPwmWrite(pin23, 0);
         delay(500);
         softPwmWrite(pin23, 0);
         softPwmWrite(pin18, 100);
@@ -39,7 +39,7 @@ int main()
         softPwmWrite(pin18, 25);
         delay(500);
         softPwmWrite(pin23, 100);
-        softPwmWrite(pin18, 0); 
+        softPwmWrite(pin18, 0);
         delay(500);
     }
 

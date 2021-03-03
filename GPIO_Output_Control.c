@@ -41,7 +41,7 @@ int main(int argc, char **argv[])
 {
 	int gno;
 
-	if(argc < 2)
+	if (argc < 2)
 	{
 		printf("input error \n");
 		return -1;
@@ -50,4 +50,3 @@ int main(int argc, char **argv[])
 	ledControl(gno);
 	return 0;
 }
-
