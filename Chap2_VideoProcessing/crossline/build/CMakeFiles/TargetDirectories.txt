@@ -1,0 +1,3 @@
+/home/pi/programming/crossline/build/CMakeFiles/rebuild_cache.dir
+/home/pi/programming/crossline/build/CMakeFiles/main.dir
+/home/pi/programming/crossline/build/CMakeFiles/edit_cache.dir

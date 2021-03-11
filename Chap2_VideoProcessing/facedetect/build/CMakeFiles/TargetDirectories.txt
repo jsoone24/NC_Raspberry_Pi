@@ -1,0 +1,3 @@
+/home/pi/programming/project/facedetect/build/CMakeFiles/rebuild_cache.dir
+/home/pi/programming/project/facedetect/build/CMakeFiles/main.dir
+/home/pi/programming/project/facedetect/build/CMakeFiles/edit_cache.dir
